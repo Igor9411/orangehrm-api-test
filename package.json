@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-api-test",
+  "version": "1.0.0",
+  "description": "This is a repo for API testing (but not only, UI tests are also here)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor9411/orangehrm-api-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Igor9411/orangehrm-api-test/issues"
+  },
+  "homepage": "https://github.com/Igor9411/orangehrm-api-test#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2"
+  }
+}
