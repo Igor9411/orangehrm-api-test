@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is a repo for API testing (but not only, UI tests are also here)",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "login-project-setup": "npx playwright test --project=setup"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Igor9411/orangehrm-api-test.git"
@@ -17,7 +19,11 @@
   },
   "homepage": "https://github.com/Igor9411/orangehrm-api-test#readme",
   "devDependencies": {
+    "@faker-js/faker": "^10.0.0",
     "@playwright/test": "^1.55.1",
     "@types/node": "^24.6.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
   }
 }
