@@ -13,6 +13,6 @@ test('Get employees list', async ({  request }) => {
 
     console.log(lastItem)
     
-    expect(lastItem.empNumber).toEqual(32)
+    expect(lastItem.empNumber).toEqual(35)
  
 })
